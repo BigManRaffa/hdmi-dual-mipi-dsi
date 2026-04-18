@@ -1,0 +1,23 @@
+# Vivado cruft
+*.jou
+*.log
+*.str
+*.backup*
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.srcs/
+*.gen/
+hdmi_dual_dsi_synth/
+
+# Verilator / iverilog cruft
+obj_dir/
+*.vcd
+tb.vvp
+
+# OS stuff
+.DS_Store
+Thumbs.db
